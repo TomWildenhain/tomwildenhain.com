@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 72.693527 23.367338"
+   height="23.367338mm"
+   width="72.693527mm">
+  <defs
+     id="defs2">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-7.9737824,-81.991397)"
+     id="layer1">
+    <g
+       id="g4674">
+      <path
+         style="opacity:1;vector-effect:none;fill:#3367bb;fill-opacity:1;stroke:#3367bb;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 65.516924,82.241397 H 12.381667 c -2.303388,0 -4.1578846,1.854499 -4.1578846,4.157886 v 14.552087 c 0,2.30338 1.8544966,4.15736 4.1578846,4.15736 h 53.135257 z"
+         id="path919" />
+      <path
+         style="opacity:1;vector-effect:none;fill:#295396;fill-opacity:1;stroke:#295396;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 65.516924,82.241397 v 22.867333 h 10.743014 c 2.303386,0 4.157369,-1.85398 4.157369,-4.15736 V 86.399283 c 0,-2.303387 -1.853983,-4.157886 -4.157369,-4.157886 z"
+         id="rect911" />
+      <path
+         style="fill:#19335d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.34344491"
+         d="m 68.493674,95.870623 h 2.236719 v -8.864551 h 4.473443 v 8.864551 h 2.236722 l -4.473442,4.473437 z"
+         id="path872" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:400;font-size:7.29820442px;line-height:125%;font-family:'LM Roman 10';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34344491"
+         x="36.614689"
+         y="91.606026"
+         id="text852"><tspan
+           x="36.614689"
+           y="91.606026"
+           id="tspan850"
+           style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.34344491">Download the</tspan><tspan
+           id="tspan4660"
+           x="36.614689"
+           y="100.72878"
+           style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.34344491">template</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% load projects_extras %}
+{% block content %}
+{% autoescape off %}
+
+    <div class="container row">
+        <div class="col s12 m9 l10">
+            <h1 class="indigo-text">{% block title %}Projects{% endblock %}</h1>
+            <p>
+                Here are some things I've worked on. Some were work-related, others just for fun.
+            </p>
+        </div>
+    </div>
+    <div class="container row">
+        <div class="col s12 m9 l10" id="main-content">
+            {% for project in projects %}
+                <div id="{{ project.div_id }}" class="card-panel white section scrollspy">
+                    <h2 class="indigo-text project-header">{{ project.project_title }}</h2>
+                    {% if project.start_date %}
+                        <div class="indigo-text project-date">
+                            {{ project.start_date }}{% if project.end_date %} - {{ project.end_date }}{% endif %}
+                        </div>
+                    {% endif %}
+
+                    {% render_project_description project.project_description %}
+                    {% if project.github_link %}
+                        <p><a href="{{ project.github_link }}" target="_blank">View on GitHub</a></p>
+                    {% endif %}
+                    {% for skill_token in project.skilltoken_set.all %}
+                        <div class="lang-tag">{{ skill_token.skill_name }}</div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+        <div class="col hide-on-small-only m3 l2">
+            <ul class="section table-of-contents" data-target="main-content">
+                {% for project in projects %}
+                    <li><a href="#{{ project.div_id }}">
+                        {% if project.sidebar_title %}{{ project.sidebar_title }}{% else %}{{ project.project_title }}{% endif %}
+                    </a></li>
+                {% endfor %}
+            </ul>
+          </div>
+    </div>
+
+{% endautoescape %}
+{% endblock %}

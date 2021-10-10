@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="row col s12{% if small %} m10 l8 offset-m1 offset-l2{% endif %}">
+        {% for image in project.image_set.all %}
+            <div class="col s4 m3{% if image.hide_on_small_screens %} hide-on-small-only{% endif %}">
+                <img class="materialboxed inline" width="100%"
+                     src=".{{ image.image.url }}"
+                    {% if image.caption %}data-caption="{{ image.caption }}"{% endif %}
+                >
+            </div>
+        {% endfor %}
+    </div>
+</div>

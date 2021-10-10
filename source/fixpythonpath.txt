@@ -1,0 +1,3 @@
+set PYTHONPATH=personal_website;%PYTHONPATH%
+user = Tom
+password = _Q_aYF6_Vf4tF_vk
